@@ -23,6 +23,7 @@ import cucumber.api.junit.Cucumber;
 		tags = {"@SmokeTest,@RegressionTest"}// "@SmokeTest", "~@RegressionTest", "~@End2End"}		
 		)
 
+
 		//OR : tags = {"@SmokeTest,@RegressionTest"} -- execute all tests tagged as @SmokeTest OR @RegressionTest
 		//AND : tags = {"@SmokeTest","@RegressionTest"} - execute all tests tagged @SmokeTest AND @RegressionTest
 		//Ignore a test tag: use '~' before the tag e.g. {"~@SmokeTest","@RegressionTest"}
