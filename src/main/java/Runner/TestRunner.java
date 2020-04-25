@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		//the path of the feature files
-		features = "C:\\Users\\dell\\eclipse-workspace\\FreeCrmBDDFramework\\FreeCrmBDDFramework\\src\\main\\java\\Features\\tagging.feature", 
+		features = "C:\\Users\\dell\\eclipse-workspace\\FreeCrmBDDFramework\\FreeCrmBDDFramework\\src\\main\\java\\Features\\taggedhooks.feature", 
 				//the path of the step definition files
 		glue={"StepDefinition"}, 
 		//to generate different types of reporting
@@ -18,9 +18,9 @@ import cucumber.api.junit.Cucumber;
 		//it will check if any step is not defined in step definition file
 		strict = true,
 		//to check the mapping is proper between feature file and step def file
-		dryRun = true,
+		dryRun = false
 		
-		tags = {"@SmokeTest,@RegressionTest"}// "@SmokeTest", "~@RegressionTest", "~@End2End"}		
+		//tags = {"@SmokeTest,@RegressionTest"}// "@SmokeTest", "~@RegressionTest", "~@End2End"}		
 		)
 
 

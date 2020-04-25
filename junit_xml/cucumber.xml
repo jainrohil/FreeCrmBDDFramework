@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" time="0">
-    <testcase classname="dummy" name="dummy">
-        <skipped message="No features found"/>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.482656">
+    <testcase classname="Free CRM app test" name="Free crm create deal test(taggedhooks)" time="0.471966">
+        <system-out>
+            <![CDATA[Given user is on the deals page(taggedhooks)................................passed
+When Use fills the deal details(taggedhooks)................................passed
+Then deal is created(taggedhooks)...........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Free CRM app test" name="Free crm create contactss test(taggedhooks)" time="0.003034">
+        <system-out>
+            <![CDATA[Given user is on the contactss page(taggedhooks)............................passed
+When Use fillss the contacts details(taggedhooks)...........................passed
+Then contact is created(taggedhooks)........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Free CRM app test" name="Free crm create case test(taggedhooks)" time="0.007656">
+        <system-out>
+            <![CDATA[Given user is on the case page(taggedhooks).................................passed
+When Use fillss the case details(taggedhooks)...............................passed
+Then case is created(taggedhooks)...........................................passed
+]]>
+        </system-out>
     </testcase>
 </testsuite>
