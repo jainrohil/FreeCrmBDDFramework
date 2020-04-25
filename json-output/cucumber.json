@@ -6,62 +6,53 @@
         "before": [
           {
             "result": {
-              "duration": 568000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.setUp()"
-            }
-          },
-          {
-            "result": {
-              "duration": 298200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUpFirst()"
-            }
-          },
-          {
-            "result": {
-              "duration": 170900,
+              "duration": 461200,
               "status": "passed"
             },
             "match": {
               "location": "TaggedHooksStepDefinition.setUpp()"
             }
+          },
+          {
+            "result": {
+              "duration": 305600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUpp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 357400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.setUpp1()"
+            }
           }
         ],
-        "line": 4,
-        "name": "Free crm create deal test(taggedhooks)",
+        "line": 3,
+        "name": "Free crm create deal test",
         "description": "",
-        "id": "free-crm-app-test;free-crm-create-deal-test(taggedhooks)",
+        "id": "free-crm-app-test;free-crm-create-deal-test",
         "after": [
           {
             "result": {
-              "duration": 4006300,
+              "duration": 420200,
               "status": "passed"
             },
             "match": {
-              "location": "HooksStepDefinition.tearDown()"
+              "location": "HooksStepDefinition.tearDownn1()"
             }
           },
           {
             "result": {
-              "duration": 370500,
+              "duration": 343700,
               "status": "passed"
             },
             "match": {
-              "location": "TaggedHooksStepDefinition.tearDownn()"
-            }
-          },
-          {
-            "result": {
-              "duration": 380300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDownFirst()"
+              "location": "TaggedHooksStepDefinition.tearDownn1()"
             }
           }
         ],
@@ -70,45 +61,39 @@
         "steps": [
           {
             "result": {
-              "duration": 465438400,
+              "duration": 436392200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the deals page",
+            "match": {
+              "location": "HooksStepDefinition.user_is_on_the_deals_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 402000,
               "status": "passed"
             },
             "line": 5,
-            "name": "user is on the deals page(taggedhooks)",
+            "name": "Use fills the details",
             "match": {
-              "location": "TaggedHooksStepDefinition.user_is_on_the_deals_page_taggedhooks()"
+              "location": "HooksStepDefinition.use_fills_the_details()"
             },
-            "keyword": "Given "
+            "keyword": "When "
           },
           {
             "result": {
-              "duration": 362500,
+              "duration": 355300,
               "status": "passed"
             },
             "line": 6,
-            "name": "Use fills the deal details(taggedhooks)",
+            "name": "deal is created",
             "match": {
-              "location": "TaggedHooksStepDefinition.use_fills_the_deal_details_taggedhooks()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 370900,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "deal is created(taggedhooks)",
-            "match": {
-              "location": "TaggedHooksStepDefinition.deal_is_created_taggedhooks()"
+              "location": "HooksStepDefinition.deal_is_created()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 3,
-            "name": "@First"
           }
         ]
       },
@@ -116,62 +101,53 @@
         "before": [
           {
             "result": {
-              "duration": 538400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.setUp()"
-            }
-          },
-          {
-            "result": {
-              "duration": 620600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUpSecond()"
-            }
-          },
-          {
-            "result": {
-              "duration": 188800,
+              "duration": 345700,
               "status": "passed"
             },
             "match": {
               "location": "TaggedHooksStepDefinition.setUpp()"
             }
+          },
+          {
+            "result": {
+              "duration": 548600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TaggedHooksStepDefinition.setUpp1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 571500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksStepDefinition.setUpp1()"
+            }
           }
         ],
-        "line": 10,
-        "name": "Free crm create contactss test(taggedhooks)",
+        "line": 8,
+        "name": "Free crm create contactss test",
         "description": "",
-        "id": "free-crm-app-test;free-crm-create-contactss-test(taggedhooks)",
+        "id": "free-crm-app-test;free-crm-create-contactss-test",
         "after": [
           {
             "result": {
-              "duration": 304800,
+              "duration": 374600,
               "status": "passed"
             },
             "match": {
-              "location": "HooksStepDefinition.tearDown()"
+              "location": "HooksStepDefinition.tearDownn1()"
             }
           },
           {
             "result": {
-              "duration": 123600,
+              "duration": 356800,
               "status": "passed"
             },
             "match": {
-              "location": "TaggedHooksStepDefinition.tearDownn()"
-            }
-          },
-          {
-            "result": {
-              "duration": 245100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDownSecond()"
+              "location": "TaggedHooksStepDefinition.tearDownn1()"
             }
           }
         ],
@@ -180,155 +156,39 @@
         "steps": [
           {
             "result": {
-              "duration": 372600,
+              "duration": 178400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user is on the contactss page",
+            "match": {
+              "location": "HooksStepDefinition.user_is_on_the_contactss_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 175200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Use fillss the details",
+            "match": {
+              "location": "HooksStepDefinition.use_fillss_the_details()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 478900,
               "status": "passed"
             },
             "line": 11,
-            "name": "user is on the contactss page(taggedhooks)",
+            "name": "contact is created",
             "match": {
-              "location": "TaggedHooksStepDefinition.user_is_on_the_contactss_page_taggedhooks()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 193800,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "Use fillss the contacts details(taggedhooks)",
-            "match": {
-              "location": "TaggedHooksStepDefinition.use_fillss_the_contacts_details_taggedhooks()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 445800,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "contact is created(taggedhooks)",
-            "match": {
-              "location": "TaggedHooksStepDefinition.contact_is_created_taggedhooks()"
+              "location": "HooksStepDefinition.contact_is_created()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 9,
-            "name": "@Second"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 738600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.setUp()"
-            }
-          },
-          {
-            "result": {
-              "duration": 4342900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUpThird()"
-            }
-          },
-          {
-            "result": {
-              "duration": 608100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUpp()"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "Free crm create case test(taggedhooks)",
-        "description": "",
-        "id": "free-crm-app-test;free-crm-create-case-test(taggedhooks)",
-        "after": [
-          {
-            "result": {
-              "duration": 313500,
-              "status": "passed"
-            },
-            "match": {
-              "location": "HooksStepDefinition.tearDown()"
-            }
-          },
-          {
-            "result": {
-              "duration": 329600,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDownn()"
-            }
-          },
-          {
-            "result": {
-              "duration": 355400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDownThird()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 355400,
-              "status": "passed"
-            },
-            "line": 17,
-            "name": "user is on the case page(taggedhooks)",
-            "match": {
-              "location": "TaggedHooksStepDefinition.user_is_on_the_case_page_taggedhooks()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 256600,
-              "status": "passed"
-            },
-            "line": 18,
-            "name": "Use fillss the case details(taggedhooks)",
-            "match": {
-              "location": "TaggedHooksStepDefinition.use_fillss_the_case_details_taggedhooks()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 356300,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "case is created(taggedhooks)",
-            "match": {
-              "location": "TaggedHooksStepDefinition.case_is_created_taggedhooks()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 15,
-            "name": "@Third"
           }
         ]
       }
@@ -337,6 +197,6 @@
     "description": "",
     "id": "free-crm-app-test",
     "keyword": "Feature",
-    "uri": "C:/Users/dell/eclipse-workspace/FreeCrmBDDFramework/FreeCrmBDDFramework/src/main/java/Features/taggedhooks.feature"
+    "uri": "C:/Users/dell/eclipse-workspace/FreeCrmBDDFramework/FreeCrmBDDFramework/src/main/java/Features/hooks.feature"
   }
 ]

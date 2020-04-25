@@ -9,14 +9,14 @@ import cucumber.api.java.en.When;
 public class HooksStepDefinition {
 
 	@Before
-	public void setUp() {
-		System.out.println("Setup browser");
-		System.out.println("Launch browser");
+	public void setUpp1() {
+		System.out.println("Setup browserr");
+		System.out.println("Launch browserr");
 	}
 	
 	@After
-	public void tearDown() {
-		System.out.println("Close the browser");
+	public void tearDownn1() {
+		System.out.println("Close the browserr");
 	}
 	
 	@Given("^user is on the deals page$")

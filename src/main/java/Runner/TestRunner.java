@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 		//the path of the feature files
-		features = "C:\\Users\\dell\\eclipse-workspace\\FreeCrmBDDFramework\\FreeCrmBDDFramework\\src\\main\\java\\Features\\taggedhooks.feature", 
+		features = "C:\\Users\\dell\\eclipse-workspace\\FreeCrmBDDFramework\\FreeCrmBDDFramework\\src\\main\\java\\Features\\hooks.feature", 
 				//the path of the step definition files
 		glue={"StepDefinition"}, 
 		//to generate different types of reporting

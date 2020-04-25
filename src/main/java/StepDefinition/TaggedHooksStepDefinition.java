@@ -16,17 +16,28 @@ public class TaggedHooksStepDefinition {
 	
 	
 	//Global hooks
-	@Before
+	@Before(order=0)
 	public void setUpp() {
 		System.out.println("Setup browser");
 		System.out.println("Launch browser");
 	}
 	
-	@After
-	public void tearDownn() {
+	@After(order=0) void tearDownn() {
 		System.out.println("Close the browser");
 	}
 	
+	
+	//Case when there are multiple Global hooks -- user 'order' option
+	@Before(order=1)
+	public void setUpp1() {
+		System.out.println("Setup browser order=1");
+		System.out.println("Launch browser order=1");
+	}
+	
+	@After(order=1)
+	public void tearDownn1() {
+		System.out.println("Close the browser");
+	}
 	
 	//local -- only for @First
 	@Before("@First")
@@ -62,47 +73,47 @@ public class TaggedHooksStepDefinition {
 		System.out.println("After for @Third");
 	}
 	
-	@Given("^user is on the deals page\\(taggedhooks\\)$")
+	@Given("^user is on the deals page -taggedhooks$")
 	public void user_is_on_the_deals_page_taggedhooks() throws Throwable {
 		System.out.println("Given 1");
 	}
 
-	@When("^Use fills the deal details\\(taggedhooks\\)$")
+	@When("^Use fills the deal details -taggedhooks$")
 	public void use_fills_the_deal_details_taggedhooks() throws Throwable {
 		System.out.println("When 1");
 	}
 
-	@Then("^deal is created\\(taggedhooks\\)$")
+	@Then("^deal is created -taggedhooks$")
 	public void deal_is_created_taggedhooks() throws Throwable {
 		System.out.println("Then 1");
 	}
 
-	@Given("^user is on the contactss page\\(taggedhooks\\)$")
+	@Given("^user is on the contactss page -taggedhooks$")
 	public void user_is_on_the_contactss_page_taggedhooks() throws Throwable {
 		System.out.println("Given 2");
 	}
 
-	@When("^Use fillss the contacts details\\(taggedhooks\\)$")
+	@When("^Use fillss the contacts details -taggedhooks$")
 	public void use_fillss_the_contacts_details_taggedhooks() throws Throwable {
 		System.out.println("When 2");
 	}
 
-	@Then("^contact is created\\(taggedhooks\\)$")
+	@Then("^contact is created -taggedhooks$")
 	public void contact_is_created_taggedhooks() throws Throwable {
 		System.out.println("Then 2");
 	}
 
-	@Given("^user is on the case page\\(taggedhooks\\)$")
+	@Given("^user is on the case page -taggedhooks$")
 	public void user_is_on_the_case_page_taggedhooks() throws Throwable {
 		System.out.println("Given 3");
 	}
 
-	@When("^Use fillss the case details\\(taggedhooks\\)$")
+	@When("^Use fillss the case details -taggedhooks$")
 	public void use_fillss_the_case_details_taggedhooks() throws Throwable {
 		System.out.println("When 3");
 	}
 
-	@Then("^case is created\\(taggedhooks\\)$")
+	@Then("^case is created -taggedhooks$")
 	public void case_is_created_taggedhooks() throws Throwable {
 		System.out.println("Then 3");
 	}
